@@ -1,0 +1,63 @@
+.mainbg {
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.3)), url('./assets/images/bg.jpg');
+}
+
+.homepage_image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('./assets/images/Horse-Ride-min.jpg');
+}
+ .homepage_image h1{
+    color:#ffffff;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lato';
+ }
+
+ .homepage_image p{
+    color:#ffffff;
+ }
+
+ a:active,a:hover{
+	border: 1px solid #2cb61a;
+	text-decoration: none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.25),0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 30px 65px 45px;
+	padding:5px 15px;
+	text-rendering: optimizeLegibility;
+
+}
+
+a:link,
+a:visited {
+    border: none !important;
+}
+
+.register_form {
+    margin:0 auto;
+    width:300px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+/*  About page styles */
+.brighttext {
+    color:#E0F2F1;
+	text-rendering: optimizeLegibility;
+}
+
+#top_section {
+    padding-bottom:150px;
+}
+
+#top_section .container p{
+    font-size:18px;
+}
+
+#mid_section {
+    padding-bottom:150px;
+}
+
+#contact_section {
+    margin:0 auto;
+    width:70%;
+}
