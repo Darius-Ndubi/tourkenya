@@ -19,16 +19,16 @@ class NavBar extends Component {
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav">
             <li><a href="/">Home</a></li>
-            <li><a as={Link} to={"/about"} href="/about">About Us</a></li>
-            <li as={Link} to={"/artcles"}><a href="/articles">Articles</a></li>
+            <li><a  href="/about">About Us</a></li>
+            <li><a href="/articles">Articles</a></li>
           </ul>
 
           <ul className="nav navbar-nav navbar-right">
               <li><a href="/dashboard">Dashboard</a></li>
               <li><a href="/logout">Logout</a></li>
 
-            <li><a as={Link} to={"/register"} href="/register">Register</a></li>
-            <li><a as={Link} to={"/login"}  href="/login"><span>Login</span></a></li>
+            <li><a href="/register">Register</a></li>
+            <li><a href="/login"><span>Login</span></a></li>
 
           </ul>
 
