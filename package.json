@@ -6,7 +6,6 @@
   "scripts": {
     "test": "npm test",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "postinstall": "webpack -p",
     "start": "node server.js"
   },
   "repository": {
@@ -41,5 +40,8 @@
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
   }
 }
