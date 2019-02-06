@@ -18,7 +18,8 @@
  }
 
  a:active,a:hover{
-	border: 1px solid #2cb61a;
+    border: 1px solid #2cb61a;
+    cursor: pointer;
 	text-decoration: none;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.25),0 6px 20px 0 rgba(0,0,0,0.19);
 	border-radius: 30px 65px 45px;
@@ -30,6 +31,7 @@
 a:link,
 a:visited {
     border: none !important;
+    cursor: pointer;
 }
 
 .register_form {

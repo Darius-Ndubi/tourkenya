@@ -18,17 +18,31 @@ class NavBar extends Component {
         </div>
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a  href="/about">About Us</a></li>
-            <li><a href="/articles">Articles</a></li>
+            <li><a><Link to="/">
+            Home
+            </Link></a></li>
+            <li><a><Link to="/about">
+            About Us
+            </Link></a></li>
+            <li><a><Link to="/articles">
+            Articles
+            </Link></a> </li>
           </ul>
 
           <ul className="nav navbar-nav navbar-right">
-              <li><a href="/dashboard">Dashboard</a></li>
-              <li><a href="/logout">Logout</a></li>
+              <li><a><Link to="/dashboard">
+              Dashboard
+            </Link></a></li>
+              <li><a><Link to="/logout">
+              Logout
+            </Link></a></li>
 
-            <li><a href="/register">Register</a></li>
-            <li><a href="/login"><span>Login</span></a></li>
+            <li><a><Link to="/register">
+            Register
+            </Link></a></li>
+            <li><a><span><Link to="/login">
+            Login
+            </Link></span></a></li>
 
           </ul>
 

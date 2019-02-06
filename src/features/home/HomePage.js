@@ -20,8 +20,8 @@ export default class HomePage extends Component {
 
           <p className="lead"> Vast lands, Untouched nature and beautiful animals await your presence.Let's Go!, Find and See them all
           Welcome </p>
-            <a as={Link} to={"/register"} href="/register" className="btn btn-primary btn-lg"> Register</a>
-            <a as={Link} to={"/login"} href="/login" className="btn btn-success btn-lg">Login</a>
+            <a as={Link} to={"/register"} className="btn btn-primary btn-lg"> Register</a>
+            <a as={Link} to={"/login"} className="btn btn-success btn-lg">Login</a>
             <br />
             <br />
             <br />
