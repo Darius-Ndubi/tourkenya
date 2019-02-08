@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: './src/index.js',
@@ -26,5 +27,11 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     historyApiFallback: true
-  }
+  },
+  plugins: [
+    new HtmlWebPackPlugin({
+      template: "./dist/index.html",
+      filename: "./index.html"
+    })
+  ]
 };
