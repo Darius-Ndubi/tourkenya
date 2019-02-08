@@ -14,35 +14,30 @@ class NavBar extends Component {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="/cover">Tour Destinations</a>
         </div>
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav">
-            <li><a><Link to="/">
+            <li><Link to="/">
             Home
-            </Link></a></li>
-            <li><a><Link to="/about">
+            </Link></li>
+            <li><Link to="/about">
             About Us
-            </Link></a></li>
-            <li><a><Link to="/articles">
+            </Link></li>
+            <li><Link to="/articles">
             Articles
-            </Link></a> </li>
+            </Link></li>
           </ul>
 
           <ul className="nav navbar-nav navbar-right">
-              <li><a><Link to="/dashboard">
+              <li><Link to="/dashboard">
               Dashboard
-            </Link></a></li>
-              <li><a><Link to="/logout">
-              Logout
-            </Link></a></li>
-
-            <li><a><Link to="/register">
+            </Link></li>
+            <li><Link to="/register">
             Register
-            </Link></a></li>
-            <li><a><span><Link to="/login">
+            </Link></li>
+            <li><Link to="/login">
             Login
-            </Link></span></a></li>
+            </Link></li>
 
           </ul>
 
